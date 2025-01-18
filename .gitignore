@@ -16,7 +16,6 @@
 *.gch
 
 # Ignore IDE-specific files
-.vscode/
 .idea/
 *.code-workspace
 
