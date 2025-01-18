@@ -15,9 +15,9 @@
 				"-Werror",
 				"-Wconversion",
 				"-Wsign-conversion",
-                "${workspaceFolder}\\*.cpp",
+                "${workspaceFolder}\\main.cpp",
 				"-o",
-                "${fileDirname}\\main2.exe",
+                "${fileDirname}\\main.exe",
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -37,7 +37,7 @@
                 "/std:c++latest",
                 "/EHsc",
                 "/Fe:",
-                "${fileDirname}\\main.exe",
+                "${fileDirname}\\{file}.exe",
                 "${workspaceFolder}\\*.cpp"
             ],
             "options": {
